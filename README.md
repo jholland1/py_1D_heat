@@ -8,7 +8,7 @@ https://www.researchgate.net/profile/Jonathan_Holland5
 -------------------------------------------------------
 FI-Classic
 -------------------------------------------------------
-Command to execute
+Command to execute: <br />
 python heat.py
 
 number of spatial points controled by "n" in script. This performs the field inversion portion. Truth equation solved in truth.py,
@@ -17,7 +17,7 @@ the imperfect model and adjoint of imperfect model solved in model.py
 -------------------------------------------------------
 FIML-Embedded
 -------------------------------------------------------
-Command to execute:
+Command to execute:<br />
 python heat_backprop.py
 
 Note that the gradient simply uses complex step differentiation (forward differentiation) so it is much more costly than the 
@@ -28,7 +28,7 @@ is controlled by nprocs variable in heat_backprop.py.
 -------------------------------------------------------
 FIML-Direct
 -------------------------------------------------------
-Command to execute:
+Command to execute:<br />
 python heat_nn.py
 
 Adjoint is implemented in this application so runs just as efficiently as FI-Classic. Also note that a major advantage of FIML-Direct
